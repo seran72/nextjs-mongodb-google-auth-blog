@@ -9,8 +9,8 @@ import AuthProvider from "@/providers/AuthProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Seran's Blog App",
-  description: "Welcome!",
+  title: "012Brainiac",
+  description: "Creative ideas here and there!",
 };
 
 export default function RootLayout({ children }) {

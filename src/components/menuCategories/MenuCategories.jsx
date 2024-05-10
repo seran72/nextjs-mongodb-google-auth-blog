@@ -9,19 +9,22 @@ const MenuCategories = () => {
         href="/blog?cat=style"
         className={`${styles.categoryItem} ${styles.style}`}
       >
-        Style
+        Cyber Security
       </Link>
-      <Link href="/blog" className={`${styles.categoryItem} ${styles.fashion}`}>
-        Fashion
+      <Link href="/blog" className={`${styles.categoryItem} ${styles.networking}`}>
+        Networking
       </Link>
-      <Link href="/blog" className={`${styles.categoryItem} ${styles.food}`}>
-        Food
+      <Link href="/blog" className={`${styles.categoryItem} ${styles.swe}`}>
+        Software Engineering
       </Link>
-      <Link href="/blog" className={`${styles.categoryItem} ${styles.travel}`}>
-        Travel
+      <Link href="/blog" className={`${styles.categoryItem} ${styles.math}`}>
+        Math
       </Link>
-      <Link href="/blog" className={`${styles.categoryItem} ${styles.culture}`}>
-        Culture
+      {/* <Link href="/blog" className={`${styles.categoryItem} ${styles.philosophy}`}>
+        Philosophy
+      </Link> */}
+      <Link href="/blog" className={`${styles.categoryItem} ${styles.psychology}`}>
+        Psychology
       </Link>
       <Link href="/blog" className={`${styles.categoryItem} ${styles.coding}`}>
         Coding

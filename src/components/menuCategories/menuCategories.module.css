@@ -16,22 +16,23 @@
     background-color: #57c4ff31;
   }
   
-  .categoryItem.fashion {
+  .categoryItem.networking {
     background-color: #da85c731;
   }
   
-  .categoryItem.food {
+  .categoryItem.swe {
     background-color: #7fb88133;
   }
   
-  .categoryItem.travel {
+  .categoryItem.math {
     background-color: #ff795736;
   }
   
-  .categoryItem.culture {
+  .categoryItem.psychology {
     background-color: #ffb04f45;
   }
-  
+
   .categoryItem.coding {
-    background-color: #5e4fff31;
+    background-color: #723f0045;
   }
+  
