@@ -16,12 +16,12 @@ const Navbar = () => {
           <Image src="/git.png" alt="GitHub" width={24} height={24} />
         </a>
       </div>
-      <div className={styles.logo}>0l</div>
+      <div className={styles.logo}></div>
       <div className={styles.links}>
         <ThemeToggle />
         <Link href="/" className={styles.link}>Homepage</Link>
-        <Link href="/" className={styles.link}>Contact</Link>
-        <Link href="/" className={styles.link}>About</Link>
+        {/* <Link href="/" className={styles.link}>Contact</Link>  */}
+        {/* <Link href="/" className={styles.link}>About</Link> */}
         <AuthLinks />
       </div>
     </div>
