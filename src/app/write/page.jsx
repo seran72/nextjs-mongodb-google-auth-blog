@@ -15,6 +15,9 @@ import {
 import { app } from "@/utils/firebase";
 import ReactQuill from "react-quill";
 
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
+
 const WritePage = () => {
   const { status } = useSession();
   const router = useRouter();
