@@ -88,7 +88,7 @@ const WritePage = () => {
         desc: value,
         img: media,
         slug: slugify(title),
-        catSlug: catSlug || "style", //If not selected, choose the general category
+        catSlug: catSlug || "cyber", //If not selected, choose the general category
       }),
     });
 
@@ -107,12 +107,12 @@ const WritePage = () => {
         onChange={(e) => setTitle(e.target.value)}
       />
       <select className={styles.select} onChange={(e) => setCatSlug(e.target.value)}>
-        <option value="style">Cyber</option>
+        <option value="cyber">Cyber</option>
         <option value="networking">Networking</option>
         <option value="swe">Software Engineering</option>
         <option value="math">Math</option>
         <option value="psychology">Psychology</option>
-        <option value="coding">coding</option>
+        <option value="other">Other</option>
       </select>
       <div className={styles.editor}>
         <button className={styles.button} onClick={() => setOpen(!open)}>

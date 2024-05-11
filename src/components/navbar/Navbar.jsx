@@ -21,7 +21,7 @@ const Navbar = () => {
         <ThemeToggle />
         <Link href="/" className={styles.link}>Homepage</Link>
         {/* <Link href="/" className={styles.link}>Contact</Link>  */}
-        {/* <Link href="/" className={styles.link}>About</Link> */}
+        <Link href="https://seran-portfolio.vercel.app/#projects" className={styles.link} target="_blank">Projects</Link>
         <AuthLinks />
       </div>
     </div>

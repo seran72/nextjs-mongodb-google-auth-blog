@@ -1,0 +1,24 @@
+# Ignore development and build directories
+node_modules
+.next
+out
+.cache
+
+# Ignore environment files
+.env*
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore Docker specific files
+.dockerignore
+Dockerfile*
+
+# Ignore editor-specific files
+.vscode
+.idea
+*.iml
+
+# Git metadata
+.git*
+

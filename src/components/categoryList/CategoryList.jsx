@@ -12,18 +12,24 @@ const getData = async () => {
     throw new Error("Failed");
   }
 
+  // const data = await res.json();
+  // return data;
   return res.json();
 };
 
 const CategoryList = async () => {
   const data = await getData();
+  // Handle potential errors or empty data (optional)
+  if (!data || !Array.isArray(data)) {
+    return <p>Error fetching categories or no categories found.</p>;
+  }
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Popular Categories</h1>
       <div className={styles.categories}>
         {data?.map((item) => (
           <Link
-            href="/blog?cat=style"
+            href={`/blog?cat=${item.slug}`}
             className={`${styles.category} ${styles[item.slug]}`}
             key={item._id}
           >
@@ -40,6 +46,7 @@ const CategoryList = async () => {
           </Link>
         ))}
       </div>
+      
     </div>
   );
 };

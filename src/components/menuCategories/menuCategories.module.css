@@ -12,8 +12,8 @@
     font-size: 14px;
   }
   
-  .categoryItem.style {
-    background-color: #57c4ff31;
+  .categoryItem.cyber {
+    background-color: #f73f3f31;
   }
   
   .categoryItem.networking {
@@ -32,7 +32,7 @@
     background-color: #ffb04f45;
   }
 
-  .categoryItem.coding {
+  .categoryItem.other {
     background-color: #723f0045;
   }
   
