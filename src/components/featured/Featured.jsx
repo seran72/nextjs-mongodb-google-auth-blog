@@ -15,18 +15,14 @@ const Featured = () => {
           <Image src="/seran.jpeg" alt="" fill className={styles.image} />
         </div> */}
         <div className={styles.textContainer}>
-          <h1 className={styles.postTitle}>Welcome to my blog...</h1>
+          <h1 className={styles.postTitle}>Welcome to my blog!</h1>
           <p className={styles.postDesc}>
-          I&apos;m an experienced professional with a Computer Science degree from 
-          CSU, Sacramento. I have technical expertise in networking, programming, 
-          and Tier 3 support. Successful track record as 
-          a Technical Support Engineer at Tesla, Applications Support 
-          Engineer at Embedded Works, and demonstrated ability to excel in 
-          dynamic technical environments.        
+          Explore my latest blog posts. Consider signing up and submitting 
+          your own guest article.     
           </p>
           {/* <button className={styles.button}>Read More</button> */}
           <Link href="https://seran-portfolio.vercel.app/" target="_blank">
-            <button className={styles.button}>Visit My Website</button>
+            <button className={styles.button}>Personal Website</button>
           </Link>
         </div>
       </div>
