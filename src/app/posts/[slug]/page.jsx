@@ -3,8 +3,10 @@ import styles from "./singlePage.module.css";
 import Image from "next/image";
 import Comments from "@/components/comments/Comments";
 
+
+// https://myblog-s43l5afo5a-uc.a.run.app
 const getData = async (slug) => {
-  const res = await fetch(`https://myblog-s43l5afo5a-uc.a.run.app/api/posts/${slug}`, {
+  const res = await fetch(`http://localhost:3000/api/posts/${slug}`, {
     cache: "no-store",
   });
 

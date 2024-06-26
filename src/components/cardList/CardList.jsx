@@ -4,9 +4,10 @@ import Pagination from "../pagination/Pagination";
 import Image from "next/image";
 import Card from "../card/Card";
 
+//  https://myblog-s43l5afo5a-uc.a.run.app
 const getData = async (page, cat) => {
   const res = await fetch(
-    `https://myblog-s43l5afo5a-uc.a.run.app/api/posts?page=${page}&cat=${cat || ""}`,
+    `http://localhost:3000/api/posts?page=${page}&cat=${cat || ""}`,
     {
       cache: "no-store",
     }
