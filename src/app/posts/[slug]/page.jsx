@@ -6,7 +6,7 @@ import Comments from "@/components/comments/Comments";
 
 // https://myblog-s43l5afo5a-uc.a.run.app
 const getData = async (slug) => {
-  const res = await fetch(`http://localhost:3000/api/posts/${slug}`, {
+  const res = await fetch(`https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/api/posts/${slug}`, {
     cache: "no-store",
   });
 
