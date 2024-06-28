@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const getData = async () => {
-  const res = await fetch("http://localhost:3000/api/categories", {
+  const res = await fetch("https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/api/categories", {
     //myblog-s43l5afo5a-uc.a.run.app
     cache: "no-store",
   });
