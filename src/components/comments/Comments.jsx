@@ -25,7 +25,7 @@ const Comments = ({ postSlug }) => {
   const { status } = useSession();
 
   const { data, mutate, isLoading } = useSWR(
-    `http://localhost:3000/api/comments?postSlug=${postSlug}`,
+    `https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/api/comments?postSlug=${postSlug}`,
     fetcher
   );
 
