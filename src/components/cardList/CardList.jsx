@@ -7,7 +7,7 @@ import Card from "../card/Card";
 //  https://myblog-s43l5afo5a-uc.a.run.app
 const getData = async (page, cat) => {
   const res = await fetch(
-    `http://localhost:3000/api/posts?page=${page}&cat=${cat || ""}`,
+    `https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/api/posts?page=${page}&cat=${cat || ""}`,
     {
       cache: "no-store",
     }
