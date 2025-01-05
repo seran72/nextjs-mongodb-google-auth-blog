@@ -15,7 +15,7 @@ const MenuCategories = () => {
         Networking
       </Link>
       <Link href="/blog?cat=swe" className={`${styles.categoryItem} ${styles.swe}`}>
-        Software Engineering
+        ML | SWE
       </Link>
       <Link href="/blog?cat=math" className={`${styles.categoryItem} ${styles.math}`}>
         Math
