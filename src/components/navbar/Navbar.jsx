@@ -22,6 +22,7 @@ const Navbar = () => {
         <Link href="/" className={styles.link}>Homepage</Link>
         {/* <Link href="/" className={styles.link}>Contact</Link>  */}
         <Link href="https://seran-portfolio.vercel.app/#projects" className={styles.link} target="_blank">Projects</Link>
+        <Link href="https://cyberwbo.blogspot.com/" className={styles.link} target="_blank">Old Blog Website</Link>
         <AuthLinks />
       </div>
     </div>
